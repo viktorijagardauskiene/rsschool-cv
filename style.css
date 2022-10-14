@@ -25,6 +25,11 @@ header {
 	height: 100%;
 }
 
+.test {
+	width: 160px;
+	height: 140px;
+}
+
 .header-info {
 	display: inline-flex;
 	width: 100%;
@@ -51,7 +56,7 @@ header {
 	width: 40%;
 }
 
-main {
+div.main {
 	padding-left: 20px;
 }
 
