@@ -31,7 +31,6 @@ header {
 }
 
 .header-info {
-	display: inline-flex;
 	width: 100%;
 	padding-left: 20px;
 
@@ -44,7 +43,7 @@ header {
 }
 .education, .skills, .english {
 	float: left;
-  	width: 30%;
+  width: 30%;
 }
 
 .skills {
@@ -68,7 +67,7 @@ div.main {
 
 div.experience, .code {
 	float: left;
-  	width: 50%;
+  width: 50%;
 }
 
 nav.experience {
@@ -85,9 +84,9 @@ footer {
 }
 
 .github-logo {
-	display: inline-flex;
+	display: flex;
 	padding-left: 20%;
-	width: 70px; 
+	width: 70px;
 	height: 70px;
 	padding-top: 20px;
 }
@@ -96,14 +95,13 @@ footer {
 	padding-top: 20px;
 	padding-left: 15%;
 	padding-right: 15%;
-	display: inline-flex;
 	font-size: 20px;
 }
 
 .rsschool-logo {
-	display: inline-flex;
+	display: flex;
 	padding-right: 50%;
 	padding-top: 30px;
-	width: 50px; 
+	width: 50px;
 	height: 50px;
 }
