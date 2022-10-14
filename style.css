@@ -25,6 +25,10 @@ header {
 	height: 100%;
 }
 
+.contacts {
+	list-style-type:none;
+}
+
 .test {
 	width: 160px;
 	height: 140px;
