@@ -1,0 +1,104 @@
+body {
+	background-color: lightgrey;
+	margin: auto;
+	width: 55%;
+	height: 100%;
+	border: 3px solid;
+	flex: 100%;
+}
+
+header {
+	line-height: 80%;
+	background-color: darkgrey;
+	height: 210px;
+	width: 100%;
+}
+
+.name {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.my-photo {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+.header-info {
+	display: inline-flex;
+	width: 100%;
+	padding-left: 20px;
+
+}
+
+.header-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.education, .skills, .english {
+	float: left;
+  	width: 30%;
+}
+
+.skills {
+	padding-left: 30px;
+	width: 25%;
+}
+.education {
+	line-height: 30px;
+	width: 40%;
+}
+
+main {
+	padding-left: 20px;
+}
+
+.last:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.experience, .code {
+	float: left;
+  	width: 50%;
+}
+
+nav.experience {
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	line-height: 30px;
+}
+
+footer {
+	background-color: darkgrey;
+	display: flex;
+	text-align: center;
+}
+
+.github-logo {
+	display: inline-flex;
+	padding-left: 20%;
+	width: 70px; 
+	height: 70px;
+	padding-top: 20px;
+}
+
+.date {
+	padding-top: 20px;
+	padding-left: 15%;
+	padding-right: 15%;
+	display: inline-flex;
+	font-size: 20px;
+}
+
+.rsschool-logo {
+	display: inline-flex;
+	padding-right: 50%;
+	padding-top: 30px;
+	width: 50px; 
+	height: 50px;
+}
