@@ -1,0 +1,85 @@
+/** decreasing responsive layout **/
+
+body {
+	background-color: lightgrey;
+	margin: auto;
+	width: 55%;
+	height: 100%;
+	border: 3px solid;
+	flex: 100%;
+}
+
+header {
+	line-height: 80%;
+	background-color: black;
+	color: white;
+	height: 210px;
+	width: 100%;
+}
+
+.name {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.my-photo {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+
+.header-info {
+	display: inline-flex;
+	width: 100%;
+	padding-left: 20px;
+
+}
+
+.header-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.education, .skills, .english {
+	float: left;
+  	width: 30%;
+}
+
+.skills {
+	padding-left: 30px;
+	width: 25%;
+}
+.education {
+	line-height: 30px;
+	width: 40%;
+}
+
+main {
+	padding-left: 20px;
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	text-align: center;
+}
+
+.github-logo {
+	
+	display: inline-flex;
+	padding-left: 10%;
+}
+
+.date {
+	padding-left: 30%;
+	padding-right: 30%;
+	display: inline-flex;
+	font-size: 20px;
+	color: white;
+
+}
+
+.rsschool-logo {
+	display: inline-flex;
+	padding-right: 10%;
+}
