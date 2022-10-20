@@ -14,9 +14,29 @@ header {
 	width: 100%;
 }
 
+nav {
+	display: inline-flex;
+	background-color: dimgray;
+	width: 75%;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.nav_item {
+	display: inline-flex;
+	padding-left: 15px;
+}
+
+.nav_item:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+ }
+
+
 .name {
-	padding-top: 30px;
+	padding-top: 20px;
 	text-align: center;
+	line-height: 5px;
 }
 
 .my-photo {
@@ -27,6 +47,7 @@ header {
 
 .contacts {
 	list-style-type:none;
+	line-height: 15px;
 }
 
 .test {
